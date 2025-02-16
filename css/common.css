@@ -171,3 +171,44 @@ input {
 }
 
 /* #endregion */
+
+/* #region task-6 */
+
+#controls {
+  display: flex;
+  gap: 16px;
+  padding: 32px;
+  margin: 16px 0;
+  background-color: #f6f6fe;
+  align-items: center;
+  justify-content: center;
+}
+
+#controls>input {
+  width: 150px;
+  text-align: center;
+}
+
+#controls>.btn {
+  width: 120px;
+}
+
+#controls>.btn+.btn {
+  background-color: #ff4e4e;
+}
+
+#controls>.btn+.btn:hover,
+#controls>.btn+.btn:focus {
+  background-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  gap: 44px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+}
+
+/* #endregion */
